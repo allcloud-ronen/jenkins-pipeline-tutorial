@@ -9,7 +9,7 @@ pipeline {
 	    region = "us-east-1"
         docker_repo_uri = "570094693868.dkr.ecr.us-east-1.amazonaws.com/sample-app"
 		task_def_arn = "arn:aws:ecs:us-east-1:570094693868:task-definition/first-run-task-definition"
-        cluster = "default"
+        cluster = "techtalk"
         exec_role_arn = "arn:aws:iam::570094693868:role/ecsTaskExecutionRole"
     }
     
